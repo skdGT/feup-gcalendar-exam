@@ -45,11 +45,6 @@ def main():
 
     service = build('calendar', 'v3', credentials=creds)
 
-    """
-        TODO:
-            - ADD OPTION TO MANUALLY ADD EXAMS
-    """
-
     id = sys.argv[2].upper()
 
     course = feupy.Course(COURSES_IDS[id])
