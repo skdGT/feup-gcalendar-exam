@@ -14,7 +14,7 @@ Make sure you have all of the following prerequisites:
 
 
 
-Before running any script install the following dependences:
+Before running any script install the following dependencies:
 
 `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 
