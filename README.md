@@ -67,3 +67,7 @@ This script would be much more complex if it weren't for Daniel Monteiro's pytho
 Feel free to submit a Pull Request as no template has been done yet.
 
 Starting an Issue is also nice!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
