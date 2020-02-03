@@ -52,6 +52,8 @@ The first time it runs you'll be asked to authorize the script on a browser, a f
 
 You can always run `help(<file.py>)` to read the file's usage and documentation.
 
+If you are getting any errors try executing your terminal with admin previleges.
+
 
 
 ## Thanks
