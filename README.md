@@ -12,7 +12,7 @@ Make sure you have all of the following prerequisites:
 - The pip package management tool
 - A Google account with Google Calendar enabled
 - A json credentials file in order to use the Google Calendar's API
-    - can be found here: [link](https://developers.google.com/calendar/quickstart/python);
+    - can be found [here](https://developers.google.com/calendar/quickstart/python);
     - After you enable the API click on **DOWNLOAD CLIENT CONFIGURATION** and save the credentials file to the main folder of this project.
   
 
