@@ -30,7 +30,7 @@ Before running any script install the following dependencies:
 
   `python create_events.py <curricular year> <course acronym>`
 
-​	this will add events starting with a graduation cap ( [🎓](https://emojipedia.org/graduation-cap/) ) to your Google Calendar with a 1-day reminder, you can change this later of course.
+​	this will add events starting with a graduation cap ([🎓](https://emojipedia.org/graduation-cap/)) to your Google Calendar with a 1-day reminder, you can change this later of course.
 
 
 
