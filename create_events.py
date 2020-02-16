@@ -69,6 +69,11 @@ def main():
 
             print(name, "\t", day, start, finish, rooms)
 
+    option = input("Do you want to add these %d events to the calendar? (y/n): " % len(to_add))
+    if option.upper() != "Y":
+        exit(1)
+
+
     for exam in to_add:
         if exam["rooms"] is not None:
             rooms = ", ".join(exam["rooms"])
