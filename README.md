@@ -18,34 +18,39 @@ Make sure you have all of the following prerequisites:
 
 Before running any script install the following dependencies:
 
-`pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
-
-`pip install feupy`
-
+```bash
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+```bash
+pip install feupy
+```
 
 
 ## Usage
 
 - You can automatically add every exam that shows up in SIGARRA to your Google Calendar with:
-
-  `python create_events.py <curricular year> <course acronym>`
-
+```bash
+python create_events.py <curricular year> <course acronym>
+```
 ​	this will add events starting with a graduation cap ([🎓](https://emojipedia.org/graduation-cap/)) to your Google Calendar with a 1-day reminder, you can change this later of course.
 
 
 
 - You can automatically remove all upcoming events starting with a graduation cap or up to a max date with:
 
-  `python remove_events.py [max date]`
-
+  ```bash
+  python remove_events.py [max date]
+  ```
   `max date` - **must** be in the YYYY-MM-DD format 
 
   
 
 - Alternatively you can manually add an exam or test event to Google Calendar with:
 
-  `python add_event.py`
-
+  ```bash
+  python add_event.py
+  ```
+  
   while this script is running you will be asked for some information, such as start date, rooms, etc. 
 
 
